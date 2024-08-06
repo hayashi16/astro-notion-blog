@@ -185,6 +185,10 @@ if (database.Icon && database.Icon.Type === 'file') {
     width: 300px;
     padding: 20px 20px;
     background-color: #f4f4f4;
+/* サイドバーを画面に追従させる */
+    position: sticky;
+    top: 0;
+    height: 100vh;
   }
   @media (max-width: 640px) {
     aside {
